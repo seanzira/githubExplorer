@@ -1,0 +1,72 @@
+/* Main container for the user details */
+body {
+    margin: 0;               
+    background-color: black;   
+    color: green;              
+    font-family: Arial, sans-serif; 
+    padding: 20px;            
+}
+
+/* Container for user details */
+.user-details {
+    max-width: 800px;         
+    margin: 0 auto;         
+    padding: 20px;            
+    border-radius: 8px;       
+    background-color: rgba(0, 0, 0, 0.8); 
+}
+
+/* Heading styles */
+h2 {
+    font-size: 2rem;        
+    margin-bottom: 10px;     
+}
+
+h3 {
+    font-size: 1.5rem;        
+    margin-top: 20px;         
+}
+
+/* Image styles */
+img {
+    border-radius: 50%;       
+    width: 100px;             
+    height: 100px;           
+    margin-bottom: 20px;     
+}
+
+/* Repository list styles */
+ul {
+    list-style-type: none;    
+    padding: 0;               
+}
+
+/* Repository item styles */
+li {
+    margin-bottom: 20px;     
+    border: 1px solid green;  
+    padding: 10px;            
+    border-radius: 4px;       
+    background-color: rgba(0, 0, 0, 0.7); 
+}
+
+/* Link styles */
+a {
+    color: lightgreen;       
+    text-decoration: none;     
+}
+
+/* Link hover effect */
+a:hover {
+    text-decoration: underline; 
+}
+
+/* Commit list styles */
+h4 {
+    margin: 10px 0;         
+}
+
+li > ul {
+    margin-left: 20px;        
+    padding: 0;               
+}
